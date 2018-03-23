@@ -71,7 +71,7 @@ function clear(){
 	//iterate through each cell in each row to change background color to white
 	for(let x = 0; x < tr.length; x++){
 		td = tr[x].getElementsByTagName("td");
-		for(let y = 0; y < tr.length; y++){
+		for(let y = 0; y < td.length; y++){
 			td[y].style.backgroundColor = white;
 		}
 	}
